@@ -1,0 +1,208 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+}
+
+/* Image */
+.image-container {
+    flex: 2;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.image {
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.photo-copyright {
+    position: absolute;
+    width: 135px;
+    height: 16px;
+    top: 836px;
+    left: 48px;
+    margin: 0;
+    color: white;
+    font-size: 10px;
+    background-color: rgba(0%, 0, 0, 0.7);
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.profile {
+    color: white;
+}
+
+/* Form */
+.form-container {
+    flex: 1;
+    padding: 48px;
+    width: 456px;
+    height: 900.5px;
+    box-sizing: border-box;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.logo {
+    width: 200px;
+    height: 60px;
+    object-fit: cover;
+    margin-bottom: 40px;
+}
+
+.welcome {
+    display: flex;
+    text-align: start;
+    margin-bottom: 24px;
+    width: 360px;
+    height: 28px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.label {
+    font-size: 11px;
+    margin-left: 10px;
+    font-weight: 400;
+    line-height: 12px;
+    padding: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.input {
+    margin-bottom: 10px;
+    background-color: #f0f0f0;
+    border: none;
+    border-radius: 4px;
+    width: 360px;
+    height: 48px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#login::placeholder {
+    font-size: 15px;
+    text-indent: 15px;
+}
+
+#password::placeholder  {
+    font-size: 15px;
+    text-indent: 15px;
+}
+
+.forgot-password {
+    margin-top: 0;
+    text-align: right;
+    margin-bottom: 0;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.forgot-password {
+    width: 100%;
+    max-width: 100%;
+    min-height: auto;
+    font-size: 12px;
+    color: #007AFF;
+}
+
+.sign-in-button {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    background-color: #8053FF;
+    border: none;
+    border-radius: 6px;
+    width: 360px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-in {
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.hr {
+    height: 0.5px;
+    border: none;
+    background-color: rgba(204, 204, 204, 0.5);
+    margin: 20px 0;
+}
+
+.google-sign-in {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    display: inline-flex;
+    background-color: #333333;
+    border: none;
+    border-radius: 6px;
+    width: 360px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.google-logo {
+    width: 19.74px;
+    height: 20px;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+.google-text {
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 20px;
+    color: white;
+    vertical-align: middle;
+}
+
+.create-google-account {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+}
+
+.link-to-google {
+    text-decoration: none;
+    color: #8053FF;
+    margin-left: 10px;
+}
+
+.copyright {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    color: #666666;
+    margin-top: 150px;
+}
